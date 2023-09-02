@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    height: 350px;
+    width: 270px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.267);
+    transition: 0.7s;
+}
+input, button{
+    margin: 7px;
+    padding: 5px;
+    width: 220px;
+    outline: none;
+    opacity: 0.8;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ccc;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.650);
+    
+}
+button{
+    width: 130px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.900);
+}
+button:hover{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.815);
+}
+input:hover{
+    opacity: 1; 
+}
+::placeholder{
+    opacity: 0.7;
+}
+p{
+    color: rgba(0, 0, 0, 0.650);
+    margin: 1px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+h2{
+    color: rgba(0, 0, 0, 0.650);
+    font-family: sans-serif;
+    margin-top: 8px;
+}
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    margin: 10px;
+    cursor: pointer;
+}
+c{
+    color: rgba(0, 0, 0, 0.650);
+    margin: 1px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.linha{
+    border-bottom: 1px solid #ccc;
+    margin: 15px;
+    width: 190px;
+}
